@@ -2,7 +2,6 @@
 
 This project converts text from images to editable text using Python and the Tesseract OCR engine. It now includes advanced features, a premium user interface, and multi-platform support.
 
----
 
 ## Features
 
@@ -16,7 +15,6 @@ This project converts text from images to editable text using Python and the Tes
 - **Custom Language Selection:** Choose OCR language before processing.
 - **Accessibility:** Supports keyboard navigation and responsive design.
 
----
 
 ## Premium UI Design
 
@@ -261,6 +259,35 @@ Text has been saved to output.txt
 1. **Termux Compatibility**: I’ve emphasized how to modify the script for Termux, replacing Tkinter’s GUI-based file selection with command-line argument input.
 2. **Installation Instructions**: Clearly outlined the steps for installing dependencies on Termux, Windows, and Linux.
 3. **Script Path Fix**: Highlighted the need to modify the `tesseract_cmd` to ensure it works in Termux.
+
+
+
+# OCR Text Recognition Tool (PDF and Image)
+
+This project allows you to extract text from images or PDF files using Tesseract OCR.
+
+## Requirements
+- Python 3.x
+- Tesseract OCR installed on your system
+
+## Installation
+1. Install the required Python libraries:
+   ```bash
+   pip install pytesseract pillow pdf2image
+   ```
+
+2. Install Tesseract OCR:
+   - For Windows: Download and install from [Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
+   - For Linux/Mac: Install via package manager (`apt`, `brew`, etc.).
+
+## Usage
+Run the script and provide the path to an image or PDF file:
+```bash
+python ocr-main.py
+```
+
+## Output
+The extracted text will be displayed on the console.
 
 ## Conclusion
 
