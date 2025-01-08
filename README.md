@@ -169,6 +169,9 @@ Text has been saved to output.txt
 ```
 
 ## Notes
+Install Python, Tesseract, and the required libraries as shown earlier. Update the `tesseract_cmd` path in the script:
+```python
+pytesseract.pytesseract.tesseract_cmd = '/data/data/com.termux/files/usr/bin/tesseract'
 
 - **Tkinter GUI**: The Tkinter `askopenfilename` dialog does not work in Termux as it requires a GUI environment. You will need to provide the image file path manually or modify the script to allow for input in another way (e.g., using command-line arguments).
 - **File Output**: The extracted text is saved to `output.txt` in the directory where the script is run.
@@ -185,6 +188,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 This `README.md` provides detailed instructions for setting up and running the OCR script on Termux, ensuring that users can easily follow the steps.
-Install Python, Tesseract, and the required libraries as shown earlier. Update the `tesseract_cmd` path in the script:
-```python
-pytesseract.pytesseract.tesseract_cmd = '/data/data/com.termux/files/usr/bin/tesseract'
+
