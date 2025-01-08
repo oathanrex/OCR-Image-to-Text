@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  font-family: 'Roboto', sans-serif;
+  color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background: #34495e;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+}
+
+.process-button {
+  width: 100%;
+  padding: 12px;
+  background: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.process-button:hover {
+  background: #27ae60;
+}
+
+.image-preview {
+  margin-top: 20px;
+  padding: 10px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  text-align: center;
+  border-radius: 5px;
+}
