@@ -33,7 +33,6 @@ Here is a preview of the color scheme and design:
 - **Accent Colors:** Soft Grey (`#bdc3c7`) and Cloud White (`#ecf0f1`)
 - **Font:** Sans-serif fonts like "Roboto" for modern aesthetics.
 
----
 
 ## Prerequisites
 
@@ -44,7 +43,6 @@ Ensure the following tools are installed:
 3. **Required Python libraries:** `pillow`, `pytesseract`, `tkinter`
 4. **Modern Web Browser:** To preview the HTML/CSS UI if running a web-based version.
 
----
 
 ## Step-by-Step Instructions
 
@@ -55,27 +53,24 @@ Ensure the following tools are installed:
 2. Download and install [Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
 3. Install Python libraries:
     ```bash
-    pip install pillow pytesseract
-    ```
+    pip install pillow pytesseract```
+    
 
 #### Run the Script
 1. Download the `ocr-win.py` script.
 2. Check tesseract path in file (`tesseract_cmd`) path:
     ```python
-    pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-    ```
+    pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'```
+    
 3. Open a terminal and run the script:
     ```bash
-    python ocr-win.py
-    ```
-
----
+    python ocr-win.py```
+    
 
 ### 2. Linux
 
 Follow similar steps for installing dependencies, ensuring the `tesseract_cmd` path is correct (`/usr/bin/tesseract`).
 
----
 
 ### 3. Termux (Android)
 
@@ -97,16 +92,15 @@ pkg install tesseract
 pkg install clang
 pkg install tk
 pkg install libjpeg-turbo
-pkg install libpng ```
+pkg install libpng
+```
 
 Here’s a comprehensive and fixed `README.md` file for your GitHub project based on all the details you provided, with specific changes and fixes for Termux compatibility and other required adjustments:
 
-```markdown
+markdown
 # OCR Image to Text Converter
 
 This project converts text from images to editable text using Python and the Tesseract OCR engine. It now includes advanced features, a premium user interface, and multi-platform support.
-
----
 
 ## Features
 
@@ -120,7 +114,6 @@ This project converts text from images to editable text using Python and the Tes
 - **Custom Language Selection:** Choose OCR language before processing.
 - **Accessibility:** Supports keyboard navigation and responsive design.
 
----
 
 ## Premium UI Design
 
@@ -137,7 +130,6 @@ Here is a preview of the color scheme and design:
 - **Accent Colors:** Soft Grey (`#bdc3c7`) and Cloud White (`#ecf0f1`)
 - **Font:** Sans-serif fonts like "Roboto" for modern aesthetics.
 
----
 
 ## Prerequisites
 
@@ -148,7 +140,6 @@ Ensure the following tools are installed:
 3. **Required Python libraries:** `pillow`, `pytesseract`, `tkinter`
 4. **Modern Web Browser:** To preview the HTML/CSS UI if running a web-based version.
 
----
 
 ## Step-by-Step Instructions
 
@@ -173,13 +164,10 @@ Ensure the following tools are installed:
     python ocr-win.py
     ```
 
----
-
 ### 2. Linux
 
 Follow similar steps for installing dependencies, ensuring the `tesseract_cmd` path is correct (`/usr/bin/tesseract`).
 
----
 
 ### 3. Termux (Android)
 
@@ -263,15 +251,12 @@ The script will process the provided image, extract the text, and save the extra
 Text has been saved to output.txt
 ```
 
----
-
 ## Notes
 
 - **Tkinter GUI**: The Tkinter `askopenfilename` dialog does not work in Termux as it requires a GUI environment. You will need to provide the image file path manually or modify the script to allow for input in another way (e.g., using command-line arguments).
 - **File Output**: The extracted text is saved to `output.txt` in the directory where the script is run.
 - **Termux Filesystem**: Ensure you upload the image files to the correct directory or provide their absolute path.
 
----
 
 ## Conclusion
 
