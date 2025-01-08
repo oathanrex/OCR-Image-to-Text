@@ -257,21 +257,20 @@ Text has been saved to output.txt
 - **File Output**: The extracted text is saved to `output.txt` in the directory where the script is run.
 - **Termux Filesystem**: Ensure you upload the image files to the correct directory or provide their absolute path.
 
-
-## Conclusion
-
-This script allows you to extract text from images using Tesseract OCR on Termux. The script saves the extracted text in a `.txt` file, making it easy to process or store the information.
-
-Feel free to modify the script to suit your needs, and contribute to the project if you'd like to add more features!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 ### Key Adjustments:
 1. **Termux Compatibility**: I’ve emphasized how to modify the script for Termux, replacing Tkinter’s GUI-based file selection with command-line argument input.
 2. **Installation Instructions**: Clearly outlined the steps for installing dependencies on Termux, Windows, and Linux.
 3. **Script Path Fix**: Highlighted the need to modify the `tesseract_cmd` to ensure it works in Termux.
 
+## Conclusion
+
+This script allows you to extract text from images using OCR . The script saves the extracted text in a `.txt` file, making it easy to process or store the information.
+
+Feel free to modify the script to suit your needs, and contribute to the project if you'd like to add more features!
+
 Let me know if you need more changes or further details!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
