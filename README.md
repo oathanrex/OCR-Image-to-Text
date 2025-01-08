@@ -316,7 +316,10 @@ Here’s the proper and detailed explanation for creating and activating a Pytho
    ```bash
    pip install pytesseract pillow pdf2image
    ```
-
+   Run the script and provide the path to an image or PDF file:
+   ```bash
+   python ocr-main.py
+   ```
 5. **Deactivate the Virtual Environment:**
    When you're done working, you can deactivate the virtual environment with:
    ```bash
@@ -328,11 +331,6 @@ Here’s the proper and detailed explanation for creating and activating a Pytho
   ```cmd
   myenv\Scripts\activate
   ```
- 
-Run the script and provide the path to an image or PDF file:
-```bash
-python ocr-main.py
-```
 
 ## Output
 The extracted text will be displayed on the console.
