@@ -281,6 +281,54 @@ This project allows you to extract text from images or PDF files using Tesseract
    - For Linux/Mac: Install via package manager (`apt`, `brew`, etc.).
 
 ## Usage
+
+Here’s the proper and detailed explanation for creating and activating a Python virtual environment:
+
+### **Creating and Activating a Python Virtual Environment**
+
+1. **Create a Virtual Environment:**
+   Run the following command to create a virtual environment named `myenv`:
+   ```bash
+   python3 -m venv myenv
+   ```
+
+   - `python3`: Specifies the Python version to use.
+   - `-m venv`: Indicates the module used to create the virtual environment.
+   - `myenv`: The name of the virtual environment folder. You can replace it with any desired name.
+
+2. **Activate the Virtual Environment:**
+   To activate the virtual environment, use the following command:
+   ```bash
+   source myenv/bin/activate
+   ```
+
+   - `source`: A shell command used to execute the activate script within the current shell.
+   - `myenv/bin/activate`: The script that sets up the environment for the virtual environment.
+
+3. **Verify Activation:**
+   After activation, your command prompt will change to include the name of the virtual environment, for example:
+   ```
+   (myenv) $
+   ```
+
+4. **Use `pip` Inside the Virtual Environment:**
+   Once the environment is activated, you can safely run `pip` commands to install Python packages specific to this environment:
+   ```bash
+   pip install <package_name>
+   ```
+
+5. **Deactivate the Virtual Environment:**
+   When you're done working, you can deactivate the virtual environment with:
+   ```bash
+   deactivate
+   ```
+
+### **Notes:**
+- If you are using Windows, the activation command will differ:
+  ```cmd
+  myenv\Scripts\activate
+  ```
+ 
 Run the script and provide the path to an image or PDF file:
 ```bash
 python ocr-main.py
