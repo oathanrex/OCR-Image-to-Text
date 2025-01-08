@@ -66,7 +66,7 @@ Ensure the following tools are installed:
     ```
 3. Open a terminal and run the script:
     ```bash
-    python ocr.py
+    python ocr-win.py
     ```
 
 ---
