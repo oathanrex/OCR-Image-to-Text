@@ -59,8 +59,8 @@ Ensure the following tools are installed:
     ```
 
 #### Run the Script
-1. Download the `ocr.py` script.
-2. Update the `tesseract_cmd` path:
+1. Download the `ocr-win.py` script.
+2. Check tesseract path in file  (`tesseract_cmd`) path:
     ```python
     pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
     ```
