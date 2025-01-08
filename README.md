@@ -314,7 +314,7 @@ Here’s the proper and detailed explanation for creating and activating a Pytho
 4. **Use `pip` Inside the Virtual Environment:**
    Once the environment is activated, you can safely run `pip` commands to install Python packages specific to this environment:
    ```bash
-   pip install <package_name>
+   pip install pytesseract pillow pdf2image
    ```
 
 5. **Deactivate the Virtual Environment:**
